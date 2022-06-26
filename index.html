@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- iconos -->
+    <script src="https://kit.fontawesome.com/8f5c9daf85.js" crossorigin="anonymous"></script>
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,400&family=Josefin+Slab:ital,wght@0,300;1,200&display=swap"
+        rel="stylesheet">
+    <!-- mi estilo -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="img/logonav.png">
+    <title>MAQUETADO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">JAZSTINA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">galeria</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        categoria
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">pantalones</a></li>
+                        <li><a class="dropdown-item" href="#">buzos overside</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">remeras</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html"> contacto</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<main>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/priscilla-du-preez-DqJMxq5ZDqA-unsplash.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/david-lezcano-NfZiOJzZgcg-unsplash.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/levi-alvarez-Uog41zpI4kM-unsplash.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section class="section">
+        <h1 class="titulo">BIENVENIDO A JAZSTINA</h1>
+    </section>
+
+    <section class="caja1">
+        <section>
+            <div class=" col-12 col-lg-6">
+                <img class="img" src="./img/levi-alvarez-Uog41zpI4kM-unsplash.jpg" alt="">
+            </div>
+        </section>
+        <section>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            ¿a que nos dedicamos?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            ¿con quien trabajamos?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            ¿quienes somos?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</main>
+
+<div class="footer">
+    <div class="row primario">
+        <div class="column about">
+
+            <h3>JAZSTINA</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, Vitae.</p>
+            <div class="redes">
+                <i class="fa-brands fa-facebook-square"></i>
+                <i class="fa-brands fa-instagram-square"></i>
+                <i class="fa-brands fa-twitter-square"></i>
+                <i class="fa-brands fa-youtube-square"></i>
+                <i class="fa-brands fa-whatsapp-square"></i>
+            </div>
+        </div>
+
+        <div class="column">
+            <h3>Some Links</h3>
+            <ul>
+                <li>
+                    <p>F.A.Q</p>
+                </li>
+                <li>
+                    <p>Cookies Policy</p>
+                </li>
+                <li>
+                    <p>Terms Of Service</p>
+                </li>
+                <li>
+                    <p>Support</p>
+                </li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Some Links</h3>
+            <ul>
+                <li>
+                    <p>F.A.Q</p>
+                </li>
+                <li>
+                    <p>Cookies Policy</p>
+                </li>
+                <li>
+                    <p>Terms Of Service</p>
+                </li>
+                <li>
+                    <p>Support</p>
+                </li>
+            </ul>
+        </div>
+        <div class="column subscribe">
+            <h3>Newsletter</h3>
+            <div>
+                <input type="email" placeholder="Your email id here" />
+                <button>Subscribe</button>
+            </div>
+            <p>Copyright &copy; 2021 Jazstina</p>
+        </div>
+        </footer>
+
+
+        <body>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+                crossorigin="anonymous"></script>
+        </body>
+
+</html>

@@ -1,0 +1,178 @@
+.titulo {
+    border-bottom: 5px solid black;
+    margin: 5px;
+
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.accordion-item {
+    width: 550px;
+}
+
+.img {
+    border: 5px solid black;
+    max-width: 600px;
+    margin: 1rem;
+
+}
+
+.row {
+    display: flex;
+
+}
+
+/* footer */
+.footer {
+    display: flex;
+    align-items: center;
+    grid-area: footer;
+    background-color: #121315;
+    font-size: 16px;
+    padding: 1rem 1rem;
+}
+
+.footer i {
+    padding: 5px;
+    font-size: 3rem;
+    color: white;
+}
+
+
+.row.primario {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: stretch;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+    color: white;
+}
+
+h3 {
+    text-align: left;
+    font-size: 1.4em;
+    white-space: nowrap;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    font-size: 1em;
+    padding: 1em;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
+button {
+    border-radius: 50px;
+    height: 55px;
+    width: 130px;
+    background-color: #1884a5;
+    color: #ffffff;
+}
+
+div.redes {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.4em;
+    flex-direction: row;
+    margin-top: 0.5em;
+}
+
+.redes i {
+    color: #bac6d9;
+}
+
+.copyright {
+    padding: 0.3em 1em;
+    background-color: #25262e;
+}
+
+.copyright p {
+    font-size: 0.9em;
+    text-align: right;
+}
+
+/* ----divisor----- */
+
+#exampleFormControlInput1 {
+    display: block;
+    width: 400px;
+    height: 50px;
+}
+
+#exampleFormControlInput2 {
+    display: block;
+    width: 400px;
+    height: 50px;
+}
+
+#textArea {
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+}
+
+#row {
+    justify-content: space-evenly;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.maps {
+    margin-left: 10rem;
+    border: solid 5px black;
+}
+
+
+.contacto {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.h1 {
+    font-size: 2.5rem;
+    border-bottom: solid 5px black;
+    display: flex;
+
+}
+
+.main {
+
+    background: linear-gradient(90deg, rgba(10, 28, 38, 1) 0%, rgba(30, 124, 181, 1) 100%);
+    color: white;
+}
+
+#emailHelp {
+    color: white;
+}
+
+#form1 {
+    padding: 10px;
+    width: 550px;
+}
+
+#form2 {
+    color: black;
+    margin: 1rem;
+    width: 600px;
+
+
+}
+
+.caja1 {
+    display: flex;
+    flex-direction: row;
+}
